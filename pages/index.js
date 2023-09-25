@@ -1,51 +1,41 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Hadley Peterson</title>
+        <link rel="icon" href="/prof_headshot.png" />
       </Head>
 
       <main>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Hadley Peterson
         </h1>
 
         <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
+          Add bio soon ...
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+          <Link className={styles.card} href="/experience">
+            <h3>Experience &rarr;</h3>
+            <p>Software engineering at Capital One with expertise in Kubernetes, big data, and API development.</p>
+          </Link>
+          <Link className={styles.card} href="/education_skills">
+            <h3>Education & Skills &rarr;</h3>
+            <p>University of Michigan 2023 College of Engineering graduate with skills across the technology stack.</p>
+          </Link>
+          <Link className={styles.card} href="/blogs">
+            <h3>Blogs &rarr;</h3>
+            <p>Avid technical writer. Topics range from Kubernetes fundementals, P vs NP, and how to thoroughly review code.</p>
+          </Link>
+          <Link className={styles.card} href="/interests">
+            <h3>Interests&rarr;</h3>
+            <p>Curious engineer, reader, writer, & yogi.</p>
+          </Link>
         </div>
       </main>
 
