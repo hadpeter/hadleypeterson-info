@@ -1,4 +1,4 @@
-import PageTitleComponet from "../app/components/pageTitle.js"
+import PageTitleComponet from "../components/pageTitle.js"
 
 export default function Experiences() {
     return (

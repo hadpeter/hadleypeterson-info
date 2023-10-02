@@ -1,5 +1,5 @@
-import PageTitleComponet from "../app/components/pageTitle.js"
-import DoubleListComponent from "../app/components/doubleList.js"
+import PageTitleComponet from "../components/pageTitle.js"
+import DoubleListComponent from "../components/doubleList.js"
 
 export default function Interests() {
     var interests = ["Cloud Computing", "Distributed Systems", "Networking", "The Dark Web", "P vs NP Problem", "Cryptography", "FinTech", "Entrepreneurship", "Venture Capital", "Yoga", "Meditation", "Water Skiing", "Gardening"]

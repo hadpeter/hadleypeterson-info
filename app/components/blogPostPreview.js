@@ -1,7 +1,7 @@
 import Avatar from './avatar'
 import CoverImage from './coverImage'
 import Link from 'next/link'
-import Author from '../../classes/author.js'
+import Author from '../classes/author.js'
 
 export default function BlogPreview(props) {
   return (

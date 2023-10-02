@@ -1,5 +1,5 @@
-import PageTitleComponet from "../app/components/pageTitle.js"
-import DoubleListComponent from "../app/components/doubleList.js"
+import PageTitleComponet from "../components/pageTitle.js"
+import DoubleListComponent from "../components/doubleList.js"
 
 export default function EducationAndSkills() {
 

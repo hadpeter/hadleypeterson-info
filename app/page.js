@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Container from '../app/components/container.js'
+import Container from './components/container.js'
 
 export default function Home() {
   return (
@@ -24,7 +24,7 @@ export default function Home() {
               <h3>Experience &rarr;</h3>
               <p>Software engineering at Capital One with expertise in Kubernetes, big data, and API development.</p>
             </Link>
-            <Link href="/education_skills">
+            <Link href="/education">
               <h3>Education & Skills &rarr;</h3>
               <p>University of Michigan 2023 College of Engineering graduate with skills across the technology stack.</p>
             </Link>

@@ -1,5 +1,5 @@
-import BlogPreview from '../app/components/blogPostPreview.js'
-import PageTitleComponet from "../app/components/pageTitle.js"
+import BlogPreview from '../components/blogPostPreview.js'
+import PageTitleComponet from "../components/pageTitle.js"
 import BlogPost from '../classes/blogPost.js'
 
 export default function Blogs() {
