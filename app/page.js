@@ -7,7 +7,7 @@ export default function Home() {
     <div className="min-h-screen">
       <Head>
         <title>Hadley Peterson</title>
-        <link rel="icon" href="/prof_headshot.png" />
+        <link rel="icon" href="/headshot.png" />
       </Head>
 
       <main>
@@ -16,26 +16,47 @@ export default function Home() {
         </h1>
 
         <Container>
-          <p>
-            Add bio soon ...
-          </p>
-          <div>
-            <Link href="/experience">
-              <h3>Experience &rarr;</h3>
-              <p>Software engineering at Capital One with expertise in Kubernetes, big data, and API development.</p>
-            </Link>
-            <Link href="/education">
-              <h3>Education & Skills &rarr;</h3>
-              <p>University of Michigan 2023 College of Engineering graduate with skills across the technology stack.</p>
-            </Link>
+          <div className="flex flex-wrap mt-4 items-center">
+            <div className="w-1/4">
+              <img src="/prof_pic.png" className="w-72 h-72 rounded-full mr-4" alt="profile picture"/>
+            </div>
+            <div className="mx-1">
+              Add bio soon ...
+            </div>
+          </div>
+          <div className="grid grid-cols-2 gap-4 justify-center mt-8 mx-48">
+            <div className="rounded-md outline outline-offset-6 outline-black">
+              <Link href="/experience">
+                <div className="justify-center mx-5 my-6">
+                  <h3>Experience</h3>
+                  <p>Software engineering at Capital One with expertise in Kubernetes, big data, and API development.</p>
+                </div>
+              </Link>
+            </div>
+            <div className="rounded-md outline outline-offset-6 outline-black">
+              <Link href="/education">
+                <div className="justify-center mx-5 my-6">
+                  <h3>Education & Skills &rarr;</h3>
+                  <p>University of Michigan 2023 College of Engineering graduate with skills across the technology stack.</p>
+                </div>
+              </Link>
+            </div>
+            <div className="rounded-md outline outline-offset-6 outline-black">
             <Link href="/blogs">
-              <h3>Blogs &rarr;</h3>
-              <p>Avid technical writer. Topics range from Kubernetes fundementals, P vs NP, and how to thoroughly review code.</p>
-            </Link>
-            <Link href="/interests">
-              <h3>Interests&rarr;</h3>
-              <p>Curious engineer, reader, writer, & yogi.</p>
-            </Link>
+              <div className="justify-center mx-5 my-6">
+                <h3>Blogs &rarr;</h3>
+                <p>Avid technical writer. Topics range from Kubernetes fundementals, P vs NP, and how to thoroughly review code.</p>
+              </div>
+              </Link>
+            </div>
+            <div className="rounded-md outline outline-offset-6 outline-black">
+              <Link href="/interests">
+                <div className="justify-center mx-5 my-6">
+                  <h3>Interests&rarr;</h3>
+                  <p>Curious engineer, reader, writer, & yogi.</p>
+                </div>
+              </Link>
+            </div>
           </div>
         </Container>
       </main>
