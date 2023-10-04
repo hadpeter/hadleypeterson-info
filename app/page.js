@@ -4,7 +4,7 @@ import Container from './components/container.js'
 
 export default function Home() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen my-6 mx-6">
       <Head>
         <title>Hadley Peterson</title>
         <link rel="icon" href="/headshot.png" />
@@ -20,15 +20,21 @@ export default function Home() {
             <div className="w-1/4">
               <img src="/prof_pic.png" className="w-72 h-72 rounded-full mr-4" alt="profile picture"/>
             </div>
-            <div className="mx-1">
-              Add bio soon ...
+            <div className="mx-1 w-2/3">
+            I am a software engineer with extensive Kubernetes, API development, and system design experience. My expertise is in designing and executing
+             the engineering of backend software systems. I have redesigned an enterprise feature compute engine to 10x performance, engineered APIs to meet
+              customer needs and optimized a search engine to improve results relevance. In addition to being a results-focused software engineer, I am a
+               great communicator, which enables me to develop, document and present complex software systems. Outside demoing and documenting software systems,
+                I’ve onboarded new hires, recruited campus hires, presented at Capital One’s internal conference, and written numerous blogs. People have described
+                 me as a focused and creative team player. I am passionate about designing complex data systems, mentoring fellow engineers, and bringing awareness to
+                  technical products.
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4 justify-center mt-8 mx-48">
             <div className="rounded-md outline outline-offset-6 outline-black">
               <Link href="/experience">
                 <div className="justify-center mx-5 my-6">
-                  <h3>Experience</h3>
+                  <h3>Experience  &rarr;</h3>
                   <p>Software engineering at Capital One with expertise in Kubernetes, big data, and API development.</p>
                 </div>
               </Link>
@@ -52,7 +58,7 @@ export default function Home() {
             <div className="rounded-md outline outline-offset-6 outline-black">
               <Link href="/interests">
                 <div className="justify-center mx-5 my-6">
-                  <h3>Interests&rarr;</h3>
+                  <h3>Interests &rarr;</h3>
                   <p>Curious engineer, reader, writer, & yogi.</p>
                 </div>
               </Link>
