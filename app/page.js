@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Container from './components/container.js'
+import PageTitleComponet from "./components/pageTitle.js"
+
 
 export default function Home() {
   return (
@@ -11,16 +13,14 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className="text-5xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">
-          Hadley Peterson
-        </h1>
+        <PageTitleComponet title="Hadley Peterson"></PageTitleComponet>
 
         <Container>
           <div className="flex flex-wrap mt-4 items-center">
             <div className="w-1/4">
-              <img src="/prof_pic.png" className="w-72 h-72 rounded-full mr-4" alt="profile picture"/>
+              <img src="/prof_pic.png" className="w-7/8 h-7/8 rounded-full mr-4" alt="profile picture"/>
             </div>
-            <div className="mx-1 w-2/3">
+            <div className="mx-4 w-2/3">
             I am a software engineer with extensive Kubernetes, API development, and system design experience. My expertise is in designing and executing
              the engineering of backend software systems. I have redesigned an enterprise feature compute engine to 10x performance, engineered APIs to meet
               customer needs and optimized a search engine to improve results relevance. In addition to being a results-focused software engineer, I am a
