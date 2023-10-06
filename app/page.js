@@ -43,7 +43,7 @@ export default function Home() {
               <Link href="/education">
                 <div className="justify-center mx-5 my-6">
                   <h3>Education & Skills &rarr;</h3>
-                  <p>University of Michigan 2023 College of Engineering graduate with skills across the technology stack.</p>
+                  <p>University of Michigan College of Engineering 2021 Graduate with skills across the technology stack.</p>
                 </div>
               </Link>
             </div>
@@ -51,7 +51,7 @@ export default function Home() {
             <Link href="/blogs">
               <div className="justify-center mx-5 my-6">
                 <h3>Blogs &rarr;</h3>
-                <p>Avid technical writer. Topics range from Kubernetes fundementals, P vs NP, and how to thoroughly review code.</p>
+                <p>Avid technical writer. Topics range from Kubernetes fundementals to P vs NP.</p>
               </div>
               </Link>
             </div>
@@ -59,7 +59,7 @@ export default function Home() {
               <Link href="/interests">
                 <div className="justify-center mx-5 my-6">
                   <h3>Interests &rarr;</h3>
-                  <p>Curious engineer, reader, writer, & yogi.</p>
+                  <p>Curious engineer, reader, & yogi.</p>
                 </div>
               </Link>
             </div>
