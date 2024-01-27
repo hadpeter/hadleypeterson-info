@@ -21,13 +21,7 @@ export default function Home() {
               <img src="/prof_pic.png" className="w-7/8 h-7/8 rounded-full mr-4" alt="profile picture"/>
             </div>
             <div className="mx-4 w-2/3">
-            I am a software engineer with extensive Kubernetes, API development, and system design experience. My expertise is in designing and executing
-             the engineering of backend software systems. I have redesigned an enterprise feature compute engine to 10x performance, engineered APIs to meet
-              customer needs and optimized a search engine to improve results relevance. In addition to being a results-focused software engineer, I am a
-               great communicator, which enables me to develop, document and present complex software systems. Outside demoing and documenting software systems,
-                I’ve onboarded new hires, recruited campus hires, presented at Capital One’s internal conference, and written numerous blogs. People have described
-                 me as a focused and creative team player. I am passionate about designing complex data systems, mentoring fellow engineers, and bringing awareness to
-                  technical products.
+            I am a software engineer passionate about designing robust data systems, communicating complex technical concepts and mentoring fellow engineers.
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4 justify-center mt-8 mx-48">
@@ -35,7 +29,7 @@ export default function Home() {
               <Link href="/experience">
                 <div className="justify-center mx-5 my-6">
                   <h3>Experience  &rarr;</h3>
-                  <p>Software engineering at Capital One with expertise in Kubernetes, big data, and API development.</p>
+                  <p>Software engineering at Capital One with expertise in search systems, ML Ops and API development.</p>
                 </div>
               </Link>
             </div>
@@ -43,7 +37,7 @@ export default function Home() {
               <Link href="/education">
                 <div className="justify-center mx-5 my-6">
                   <h3>Education & Skills &rarr;</h3>
-                  <p>University of Michigan College of Engineering 2021 Graduate with skills across the technology stack.</p>
+                  <p>University of Michigan College of Engineering 2021 graduate with skills across the technology stack.</p>
                 </div>
               </Link>
             </div>

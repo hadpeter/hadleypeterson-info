@@ -12,6 +12,7 @@ export default function DoubleListComponent(props){
             {items}
             <div>{folder}</div>
             <div>foo</div>
+            <div>foo4</div>
         </div>
     );
 }
