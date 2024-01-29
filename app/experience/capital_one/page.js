@@ -12,24 +12,30 @@ export default function CapitalOne() {
                     New York, New York
                 </div>
             </section>
-            <JobHighlight title="Senior Associate Software Engineer" focus="Search Engine Optimization" date="August 2023-Present"></JobHighlight>
-            <ul>
-                <li>
+            <section className="mb-16">
+                <JobHighlight title="Senior Associate Software Engineer" focus="Search Engine Optimization" date="August 2023-Present"></JobHighlight>
+                <ul>
+                    <li>
 
-                </li>
-            </ul>
-            <JobHighlight title="Associate Software Engineer" focus="Machine Learning Opperations" date="August 2022-August 2023"></JobHighlight>
-            <ul>
-                <li>
-                    
-                </li>
-            </ul>
-            <JobHighlight title="Software Engineer Intern" focus="API Development" date="May 2020-August 2020"></JobHighlight>
-            <ul>
-                <li>
-                    
-                </li>
-            </ul>
+                    </li>
+                </ul>
+            </section>
+            <section className="mb-16">
+                <JobHighlight title="Associate Software Engineer" focus="Machine Learning Opperations" date="August 2022-August 2023"></JobHighlight>
+                <ul>
+                    <li>
+                        
+                    </li>
+                </ul>
+            </section>
+            <section className="mb-16">
+                <JobHighlight title="Software Engineer Intern" focus="API Development" date="May 2020-August 2020"></JobHighlight>
+                <ul>
+                    <li>
+                        
+                    </li>
+                </ul>
+            </section>
         </div>
     )
 }
