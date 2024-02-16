@@ -4,7 +4,9 @@ import DoubleListComponent from "../components/doubleList.js"
 import JobHighlight from "../components/JobHighlight.js"
 
 export default function EducationAndSkills() {
-    var skills = ["c++", "python"]
+    var languages = ["C++", "Python", "JavaScript", "React", "Next.js", "Svelte", "Go", 
+    "YAML", "SQL", "C"]
+    var technologies = ["Splunk", "OpenSearch", "Lambda", "DynamoDB", "AWS ECS", "AWS CodeDeploy", "Load Balancers", "EMR", "Route53", "Snowflake", "Kubernetes", "Docker", "Jenkins", "Git"]
 
     return (
         <div className="min-h-screen my-6 mx-6">
@@ -16,7 +18,7 @@ export default function EducationAndSkills() {
                 <JobHighlight title="University of Michigan" focus="College of Engineering" date="September 2017-May 2021"></JobHighlight>
                 <ul>
                     <li>
-                        Bachelors of Science in Computer Science Engineering
+                        Bachelor of Science in Computer Science Engineering
                     </li>
                     <li>
                         <b>Instructional Aide:</b> EECS 376: Foundations of Computer Science
@@ -28,7 +30,10 @@ export default function EducationAndSkills() {
             </section>
             <section className="mb-16">
                 <PageSubTitleComponet title="Skills"></PageSubTitleComponet>
-                <DoubleListComponent items={skills}></DoubleListComponent>
+                <h4>Languages and Frameworks</h4>
+                <DoubleListComponent items={languages}></DoubleListComponent>
+                <h4>Technologies</h4>
+                <DoubleListComponent items={technologies}></DoubleListComponent>
             </section>
         </div>
         

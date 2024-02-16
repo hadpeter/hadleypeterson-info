@@ -18,7 +18,7 @@ export default function Home() {
         <Container>
           <div className="flex flex-wrap mt-4 items-center">
             <div className="w-1/4">
-              <img src="/prof_pic.jpeg" className="w-7/8 h-7/8 rounded-full mr-4" alt="profile picture"/>
+              <img src="/headshot.jpg" className="w-7/8 h-7/8 rounded-full mr-4" alt="profile picture"/>
             </div>
             <div className="mx-4 w-2/3">
             I am a software engineer passionate about designing robust data systems, communicating complex technical concepts and mentoring fellow engineers.
