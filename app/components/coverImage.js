@@ -5,13 +5,13 @@ import Image from 'next/image'
 export default function CoverImage(props) {
     var title = props.title
     var src = props.src
-    var slug = props.slug
+    var link = props.link
   const image = (
     <Image
       src={src}
       alt={`Cover Image for ${title}`}
       className={cn('shadow-sm w-full', {
-        'hover:shadow-lg transition-shadow duration-200': slug,
+        'hover:shadow-lg transition-shadow duration-200': link,
       })}
       width={1300}
       height={630}
@@ -19,13 +19,9 @@ export default function CoverImage(props) {
   )
   return (
     <div className="sm:mx-0">
-      {slug ? (
-        <Link as={`/posts/${slug}`} href="/posts/[slug]" aria-label={title}>
-          {image}
-        </Link>
-      ) : (
-        image
-      )}
+      <Link href={link} aria-label={title}>
+        {image}
+      </Link>
     </div>
   )
 }

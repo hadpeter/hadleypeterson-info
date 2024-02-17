@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Container from './components/container.js'
 import PageTitleComponet from "./components/pageTitle.js"
+import Icons from './components/icons.js'
 
 
 export default function Home() {
@@ -23,9 +24,12 @@ export default function Home() {
             <div className="mx-4 w-2/3">
             I am a software engineer passionate about designing robust data systems, communicating complex technical concepts and mentoring fellow engineers.
             </div>
+            <div>
+              <Icons></Icons>
+            </div>
           </div>
           <div className="grid grid-cols-2 gap-4 justify-center mt-8 mx-48">
-            <div className="rounded-md outline outline-offset-6 outline-black">
+            <div className="rounded-md outline outline-offset-6 outline-black hover:shadow-lg transition-shadow duration-200">
               <Link href="/experience">
                 <div className="justify-center mx-5 my-6">
                   <h3>Experience  &rarr;</h3>
@@ -33,7 +37,7 @@ export default function Home() {
                 </div>
               </Link>
             </div>
-            <div className="rounded-md outline outline-offset-6 outline-black">
+            <div className="rounded-md outline outline-offset-6 outline-black hover:shadow-lg transition-shadow duration-200">
               <Link href="/education">
                 <div className="justify-center mx-5 my-6">
                   <h3>Education & Skills &rarr;</h3>
@@ -41,7 +45,7 @@ export default function Home() {
                 </div>
               </Link>
             </div>
-            <div className="rounded-md outline outline-offset-6 outline-black">
+            <div className="rounded-md outline outline-offset-6 outline-black hover:shadow-lg transition-shadow duration-200">
             <Link href="/blogs">
               <div className="justify-center mx-5 my-6">
                 <h3>Blogs &rarr;</h3>
@@ -49,7 +53,7 @@ export default function Home() {
               </div>
               </Link>
             </div>
-            <div className="rounded-md outline outline-offset-6 outline-black">
+            <div className="rounded-md outline outline-offset-6 outline-black hover:shadow-lg transition-shadow duration-200">
               <Link href="/interests">
                 <div className="justify-center mx-5 my-6">
                   <h3>Interests &rarr;</h3>

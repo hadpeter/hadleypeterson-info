@@ -8,5 +8,4 @@ export class BlogPost {
   author = Author()
   excerpt = ''
   content = ''
-  signupForm = ''
 }

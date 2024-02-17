@@ -1,5 +1,4 @@
 export default function DoubleListComponent(props){
-    // TODO: open all files in folder and load them into listItems
     var listItems = props.items
     var items = listItems.map(function (i) {
     return (
