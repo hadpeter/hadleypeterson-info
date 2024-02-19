@@ -4,12 +4,12 @@ import Job from "../components/job.js"
 
 export default function Experiences() {
     return (
-      <div className="min-h-screen my-6 mx-6">
+      <div className="min-h-screen mt-4">
         <section className="flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12">
           <PageTitleComponet title="Experiences"></PageTitleComponet>
         </section>
 
-          <div className="grid grid-cols-1 gap-4 justify-center mt-8 mx-48 ">
+          <div className="grid grid-cols-1 gap-4 justify-center mt-8 mx-4">
             <div className="rounded-md outline outline-offset-6 outline-black hover:shadow-lg transition-shadow duration-200">
               <Link href="/experience/capital_one">
                 <div className="justify-center mx-5 my-6">
