@@ -13,8 +13,8 @@ export default function CoverImage(props) {
       className={cn('shadow-sm w-full', {
         'hover:shadow-lg transition-shadow duration-200': link,
       })}
-      width={1300}
-      height={630}
+      width={600}
+      height={290}
     />
   )
   return (

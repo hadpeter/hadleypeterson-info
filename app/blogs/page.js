@@ -42,7 +42,7 @@ export default function Blogs() {
         },
         {
             "title": "Does blockchain technology support more secure communication than the internet?",
-            "coverImage": "",
+            "coverImage": "/blockchain_security.jpg",
             "date": "July 2022",
             "author": author,
             "link": "https://hadleypeterson.substack.com/p/does-blockchain-technology-support",
@@ -50,7 +50,7 @@ export default function Blogs() {
         },
         {
             "title": "How are our communications securely sent over the internet? A deep dive into public-key cryptography.",
-            "coverImage": "",
+            "coverImage": "/public_encryption.jpg",
             "date": "June 2022",
             "author": author,
             "link": "https://hadleypeterson.substack.com/p/how-are-our-communications-securely",
@@ -58,7 +58,7 @@ export default function Blogs() {
         },
         {
             "title": "Will technology security implode? A discussion on P vs NP.",
-            "coverImage": "",
+            "coverImage": "/p_v_np.jpg",
             "date": "June 2022",
             "author": author,
             "link": "https://hadleypeterson.substack.com/p/will-technology-security-implode",
@@ -66,7 +66,7 @@ export default function Blogs() {
         },
         {
             "title": "How fast is fast enough? A discussion on computer efficiency.",
-            "coverImage": "",
+            "coverImage": "/efficiency.jpg",
             "date": "June 2022",
             "author": author,
             "link": "https://hadleypeterson.substack.com/p/how-fast-is-fast-enough-a-discussion",
