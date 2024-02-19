@@ -26,7 +26,7 @@ export default function Home() {
             <Icons></Icons>
             </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center mt-8 mx-48 grid">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center mt-8 mx-4 grid">
             <div className="rounded-md outline outline-offset-6 outline-black hover:shadow-lg transition-shadow duration-200">
               <Link href="/experience">
                 <div className="justify-center mx-5 my-6">
