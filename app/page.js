@@ -23,9 +23,7 @@ export default function Home() {
             </div>
             <div className="mx-4 w-2/3">
             I am a software engineer passionate about designing robust data systems, communicating complex technical concepts and mentoring fellow engineers.
-            </div>
-            <div>
-              <Icons></Icons>
+            <Icons></Icons>
             </div>
           </div>
           <div className="grid grid-cols-2 gap-4 justify-center mt-8 mx-48">
@@ -64,17 +62,6 @@ export default function Home() {
           </div>
         </Container>
       </main>
-
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel"/>
-        </a>
-      </footer>
     </div>
   );
 }

@@ -1,17 +1,10 @@
 import JobHighlight from "../../components/JobHighlight.js"
-import PageTitleComponet from "../../components/pageTitle.js"
+import ExperienceTitle from "../../components/experienceTitle.js"
 
 export default function CapitalOne() {
     return (
-        <div className="min-h-screen my-6 mx-6">
-            <section className="flex-col md:flex-row flex-col mt-16 mb-16 md:mb-12">
-                <div>
-                    <PageTitleComponet title="Capital One"></PageTitleComponet>
-                </div>
-                <div>
-                    New York, New York
-                </div>
-            </section>
+        <div className="min-h-screen my-16 mx-16">
+            <ExperienceTitle name="Capital One" image="/Capital_one.png" location="New York, New York"></ExperienceTitle>
             <section className="mb-16">
                 <JobHighlight title="Senior Associate Software Engineer" focus="Search Engine Optimization" date="August 2023-Present"></JobHighlight>
                 <ul class="list-disc mx-8">

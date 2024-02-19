@@ -1,22 +1,15 @@
 import JobHighlight from "../../components/JobHighlight.js"
-import PageTitleComponet from "../../components/pageTitle.js"
+import ExperienceTitle from "../../components/experienceTitle.js"
 
 export default function TappanHill() {
     return (
         <div className="min-h-screen my-6 mx-6">
-            <section className="flex-col md:flex-row flex-col mt-16 mb-16 md:mb-12">
-                <div>
-                    <PageTitleComponet title="Tappan Hill Ventures"></PageTitleComponet>
-                </div>
-                <div>
-                    New York, New York
-                </div>
-            </section>
-            <JobHighlight title="Senior Associate Software Engineer" focus="Search Engine Optimization" date="August 2023-Present"></JobHighlight>
-            <ul>
-                <li>
-
-                </li>
+            <ExperienceTitle name="Tappan Hill" image="/Tappan_hill.png" location="Ann Arbor, Michigan"></ExperienceTitle>
+            <JobHighlight title="Analyst" focus="" date="February 2019-February 2020"></JobHighlight>
+            <ul class="list-disc mx-8">
+                <li>Performed diligence across multiple investment opportunities; outputs included competitor analysis, market sizing, financial forecasting, customer references and valuation</li>
+                <li>Advised partnership to pass on nine evaluated investment opportunities across the cybersecurity, blockchain, and asset management sectors</li>
+                <li>Recommended exit strategies to a cybersecurity startup and met with the CEO to investigate their market position</li>
             </ul>
         </div>
     )

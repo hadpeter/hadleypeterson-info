@@ -1,22 +1,14 @@
 import JobHighlight from "../../components/JobHighlight.js"
-import PageTitleComponet from "../../components/pageTitle.js"
+import ExperienceTitle from "../../components/experienceTitle.js"
 
 export default function Clocktower() {
     return (
         <div className="min-h-screen my-6 mx-6">
-            <section className="flex-col md:flex-row flex-col mt-16 mb-16 md:mb-12">
-                <div>
-                    <PageTitleComponet title="Clocktower Technology Ventures"></PageTitleComponet>
-                </div>
-                <div>
-                    Remote
-                </div>
-            </section>
+            <ExperienceTitle name="Clocktower Technology Ventures" image="/Clocktower_tech_ventures.png" location="Remote"></ExperienceTitle>
             <JobHighlight title="Technology Consultant" focus="Portfolio analysis" date=""></JobHighlight>
-            <ul>
-                <li>
-                    Developed Tableau dashboards to visualize performance metrics for portfolio companies
-                </li>
+            <ul class="list-disc mx-8">
+                <li>Developed Tableau dashboards to visualize performance metrics for portfolio companies</li>
+                <li>Demoed product internally to spread adoption; product used for sharing performance and analyzing areas of opportunity</li>
             </ul>
         </div>
     )
