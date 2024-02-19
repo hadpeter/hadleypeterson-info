@@ -3,7 +3,7 @@ import ExperienceTitle from "../../components/experienceTitle.js"
 
 export default function CapitalOne() {
     return (
-        <div className="min-h-screen my-16 mx-16">
+        <div className="min-h-screen my-16 mx-6">
             <ExperienceTitle name="Capital One" image="/Capital_one.png" location="New York, New York"></ExperienceTitle>
             <section className="mb-16">
                 <JobHighlight title="Senior Associate Software Engineer" focus="Search Engine Optimization" date="August 2023-Present"></JobHighlight>
