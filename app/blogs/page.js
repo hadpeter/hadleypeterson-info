@@ -10,7 +10,7 @@ export default function Blogs() {
     var posts = [
         {
             "title": "Code review best practices: How to complete a pull request",
-            "coverImage": "",
+            "coverImage": "/code_review.jpg",
             "date": "December 2023",
             "author": author,
             "link": "https://www.capitalone.com/tech/software-engineering/pull-request-best-practices/",
@@ -18,7 +18,7 @@ export default function Blogs() {
         },
         {
             "title": "Demystifying Kubernetes: Exploring the Key Components of Kubernetes",
-            "coverImage": "",
+            "coverImage": "/kubernetes.jpg",
             "date": "August 2023",
             "author": author,
             "link": "https://hadleypeterson.substack.com/p/demystifying-kubernetes-exploring",
@@ -26,7 +26,7 @@ export default function Blogs() {
         },
         {
             "title": "To buy or build? A discussion on the key factors impacting this decision and trend toward third parties.",
-            "coverImage": "",
+            "coverImage": "/buy_v_build.jpg",
             "date": "November 2022",
             "author": author,
             "link": "https://hadleypeterson.substack.com/p/to-buy-or-build-a-discussion-on-the",
@@ -34,7 +34,7 @@ export default function Blogs() {
         },
         {
             "title": "What’s all the fuss about cloud technology? An introduction to the cloud and its use cases.",
-            "coverImage": "",
+            "coverImage": "/cloud.jpg",
             "date": "August 2022",
             "author": author,
             "link": "https://hadleypeterson.substack.com/p/whats-all-the-fuss-about-cloud-technology",
