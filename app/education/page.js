@@ -7,7 +7,7 @@ export default function EducationAndSkills() {
     var languages = [
         {name: "C++", image: "/skills/c++.png"}, 
         {name: "Python", "image": "/skills/python.png"},
-        {name: "JavaScript", "image": "/skills/javascript.png"},
+        {name: "JavaScript", "image": "/skills/JavaScript.png"},
         {name: "React", "image": "/skills/react.png"},
         {name: "Next.js", "image": "/skills/next.png"},
         {name: "Svelte", "image": "/skills/svelte.png"},

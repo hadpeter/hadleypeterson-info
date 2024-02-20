@@ -27,7 +27,7 @@ export default function Home() {
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center mt-8 mx-4 grid">
-            <div className="rounded-md outline outline-offset-6 outline-black hover:shadow-lg transition-shadow duration-200">
+            <div className="rounded-md outline outline-offset-6 outline-black hover:shadow-xl transition-shadow duration-200">
               <Link href="/experience">
                 <div className="justify-center mx-5 my-6">
                   <h3 className="font-bold">Experience  &rarr;</h3>
@@ -35,7 +35,7 @@ export default function Home() {
                 </div>
               </Link>
             </div>
-            <div className="rounded-md outline outline-offset-6 outline-black hover:shadow-lg transition-shadow duration-200">
+            <div className="rounded-md outline outline-offset-6 outline-black hover:shadow-xl transition-shadow duration-200">
               <Link href="/education">
                 <div className="justify-center mx-5 my-6">
                   <h3 className="font-bold">Education & Skills &rarr;</h3>
@@ -43,7 +43,7 @@ export default function Home() {
                 </div>
               </Link>
             </div>
-            <div className="rounded-md outline outline-offset-6 outline-black hover:shadow-lg transition-shadow duration-200">
+            <div className="rounded-md outline outline-offset-6 outline-black hover:shadow-xl transition-shadow duration-200">
             <Link href="/blogs">
               <div className="justify-center mx-5 my-6">
                 <h3 className="font-bold">Blogs &rarr;</h3>
@@ -51,7 +51,7 @@ export default function Home() {
               </div>
               </Link>
             </div>
-            <div className="rounded-md outline outline-offset-6 outline-black hover:shadow-lg transition-shadow duration-200">
+            <div className="rounded-md outline outline-offset-6 outline-black hover:shadow-xl transition-shadow duration-200">
               <Link href="/interests">
                 <div className="justify-center mx-5 my-6">
                   <h3 className="font-bold">Interests &rarr;</h3>

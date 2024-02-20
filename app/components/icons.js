@@ -20,7 +20,7 @@ export default function Icons(props) {
         return (
             <Link
             href={i.link}
-            className="hover:underline mt-6 mr-4 hover:shadow-lg transition-shadow duration-200">
+            className="hover:underline mt-6 mr-4">
             <img src={i.image} className=" w-12 h-12 mr-4" />
             </Link>
         );
