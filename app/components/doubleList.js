@@ -10,7 +10,7 @@ export default function DoubleListComponent(props){
             <Image
                 src={i.image}
                 alt={`Cover Image for ${i.name}`}
-                className='w-1/2 mx-6'
+                className='w-1/2 mx-6 my-2'
                 width={200}
                 height={100}
                 />
