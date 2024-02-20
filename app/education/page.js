@@ -55,9 +55,9 @@ export default function EducationAndSkills() {
             </section>
             <section className="mb-16">
                 <PageSubTitleComponet title="Skills"></PageSubTitleComponet>
-                <h4>Languages and Frameworks</h4>
+                <h4 className="text-xl font-bold">Languages and Frameworks</h4>
                 <DoubleListComponent items={languages}></DoubleListComponent>
-                <h4>Technologies</h4>
+                <h4 className="text-xl font-bold">Technologies</h4>
                 <DoubleListComponent items={technologies}></DoubleListComponent>
             </section>
         </div>
