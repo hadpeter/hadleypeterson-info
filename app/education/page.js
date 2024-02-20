@@ -4,9 +4,34 @@ import DoubleListComponent from "../components/doubleList.js"
 import JobHighlight from "../components/JobHighlight.js"
 
 export default function EducationAndSkills() {
-    var languages = ["C++", "Python", "JavaScript", "React", "Next.js", "Svelte", "Go", 
-    "YAML", "SQL", "C"]
-    var technologies = ["Splunk", "OpenSearch", "Lambda", "DynamoDB", "AWS ECS", "AWS CodeDeploy", "Load Balancers", "EMR", "Route53", "Snowflake", "Kubernetes", "Docker", "Jenkins", "Git"]
+    var languages = [
+        {name: "C++", image: "/skills/c++.png"}, 
+        {name: "Python", "image": "/skills/python.png"},
+        {name: "JavaScript", "image": "/skills/javascript.png"},
+        {name: "React", "image": "/skills/react.png"},
+        {name: "Next.js", "image": "/skills/next.png"},
+        {name: "Svelte", "image": "/skills/svelte.png"},
+        {name: "Go", "image": "/skills/go.png"},
+        {name: "YAML", "image": "/skills/yaml.png"},
+        {name: "SQL", "image": "/skills/sql.svg"},
+        {name: "C", "image": "/skills/c.png"}
+    ]
+    var technologies = [
+        {name:"OpenSearch", "image": "/skills/opensearch.png"},
+        {name:"Lambda", "image": "/skills/lambda.png"},
+        {name:"EMR", "image": "/skills/emr.png"},
+        {name:"ECS", "image": "/skills/ecs.png"},
+        {name:"DynamoDB", "image": "/skills/dynamo.png"},
+        {name:"Load Balancers", "image": "/skills/loadbalancer.png"},
+        {name:"Route 53", "image": "/skills/route53.svg"},
+        {name:"Fargate", "image": "/skills/fargate.png"},
+        {name:"Snowflake", "image": "/skills/snowflake.png"},
+        {name:"Kubernetes", "image": "/skills/kubernetes.png"},
+        {name:"Jenkins", "image": "/skills/jenkins.png"},
+        {name:"Splunk", "image": "/skills/splunk.jpeg"},
+        {name:"Docker", "image": "/skills/docker.webp"},
+        {name:"Git", "image": "/skills/git.png"},
+    ]
 
     return (
         <div className="min-h-screen my-6 mx-6">
