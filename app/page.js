@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import Link from 'next/link';
 import Container from './components/container.js'
 import PageTitleComponet from "./components/pageTitle.js"
@@ -8,11 +7,6 @@ import Icons from './components/icons.js'
 export default function Home() {
   return (
     <div className="min-h-screen my-6 mx-6">
-      <Head>
-        <title>Hadley Peterson</title>
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-      </Head>
-
       <main>
         <PageTitleComponet title="Hadley Peterson"></PageTitleComponet>
 

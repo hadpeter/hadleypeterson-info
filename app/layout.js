@@ -2,10 +2,9 @@
 import './globals.css'
  
 export const metadata = {
-  title: 'Hadley Peterson',
+  title: 'Hadley Peterson - Work',
   description: 'About Hadley Peterson',
-  icon: '/headshot.png',
-  image: '/headshot.png'
+  icon: '/favicon.ico'
 }
  
 export default function RootLayout({ children }) {
