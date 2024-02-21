@@ -2,7 +2,7 @@
 import './globals.css'
  
 export const metadata = {
-  title: 'Hadley Peterson - Work',
+  title: 'Hadley Peterson',
   description: 'About Hadley Peterson',
   icon: '/favicon.ico'
 }
