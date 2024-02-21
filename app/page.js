@@ -47,7 +47,7 @@ export default function Home() {
             <Link href="/blogs">
               <div className="justify-center mx-5 my-6">
                 <h3 className="font-bold">Blogs &rarr;</h3>
-                <p>Avid technical writer. Topics range from Kubernetes fundementals to P vs NP.</p>
+                <p>Avid technical writer. Topics range from Kubernetes fundamentals to P vs NP.</p>
               </div>
               </Link>
             </div>
