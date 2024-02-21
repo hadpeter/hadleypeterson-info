@@ -4,7 +4,8 @@ import './globals.css'
 export const metadata = {
   title: 'Hadley Peterson',
   description: 'About Hadley Peterson',
-  icon: '/favicon.ico'
+  icon: '/favicon.ico',
+  appleicon: '/headshot_icon.jpg'
 }
  
 export default function RootLayout({ children }) {
