@@ -10,7 +10,7 @@ export default function Home() {
     <div className="min-h-screen my-6 mx-6">
       <Head>
         <title>Hadley Peterson</title>
-        <link rel="icon" href="/headshot.png" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
       </Head>
 
       <main>
