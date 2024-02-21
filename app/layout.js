@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Hadley Peterson',
   description: 'About Hadley Peterson',
   icon: '/favicon.ico',
-  appleicon: '/headshot_icon.jpg'
+  thumbnail: '/smallicon.ico'
 }
  
 export default function RootLayout({ children }) {
