@@ -2,12 +2,15 @@ import Link from 'next/link';
 import Container from './components/container.js'
 import PageTitleComponet from "./components/pageTitle.js"
 import Icons from './components/icons.js'
+import RootLayout from './layout.js'
 
 
 export default function Home() {
   return (
+    <RootLayout>
     <div className="min-h-screen my-6 mx-6">
       <main>
+      <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <PageTitleComponet title="Hadley Peterson"></PageTitleComponet>
 
         <Container>
@@ -57,5 +60,6 @@ export default function Home() {
         </Container>
       </main>
     </div>
+    </RootLayout>
   );
 }

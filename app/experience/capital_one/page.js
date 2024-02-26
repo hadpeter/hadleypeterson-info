@@ -8,8 +8,8 @@ export default function CapitalOne() {
             <section className="mb-16">
                 <JobHighlight title="Senior Associate Software Engineer" focus="Search Engine Optimization" date="August 2023-Present"></JobHighlight>
                 <ul class="list-disc mx-8">
-                    <li>Owned API and data ingestion pipelines with 800+ users</li>
-                    <li>Built backend to unify cross platform search results; improved 700+ users’ experiences parsing search results</li>
+                    <li>Owned API and data ingestion pipelines with 10,000+ users</li>
+                    <li>Built backend to unify cross platform search results; improved 7,000+ users’ experiences parsing search results</li>
                     <li>Researched and pitched transition to semantic search; won internal buy-in and engineered solution</li>
                     <li>Piloted search evaluation and AB testing; empowered product partners with tools to quantify search performance</li>
                     <li>Engineered internal data collection tool used for onboarding across 30+ teams</li>
