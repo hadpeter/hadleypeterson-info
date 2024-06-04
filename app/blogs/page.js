@@ -9,6 +9,14 @@ export default function Blogs() {
     }
     var posts = [
         {
+            "title": "The Evolution of Search: How the search space has transformed and what the use cases are for each innovation",
+            "coverImage": "/search.jpg",
+            "date": "May 2024",
+            "author": author,
+            "link": "https://hadleypeterson.substack.com/p/the-evolution-of-search-how-the-search",
+            "excerpt": "Flash back to 100 years ago: you need to look up a question and what do you do? Flip open an encyclopedia? Spend hours parsing"
+        },
+        {
             "title": "Code review best practices: How to complete a pull request",
             "coverImage": "/code_review.jpg",
             "date": "December 2023",
