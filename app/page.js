@@ -28,7 +28,7 @@ export default function Home() {
               <Link href="/experience">
                 <div className="justify-center mx-5 my-6">
                   <h3 className="font-bold">Experience  &rarr;</h3>
-                  <p>Software engineering at Capital One with expertise in search systems, ML Ops and API development.</p>
+                  <p>Senior software engineer at Capital One with expertise in search systems, ML Ops and API development.</p>
                 </div>
               </Link>
             </div>
@@ -36,7 +36,7 @@ export default function Home() {
               <Link href="/education">
                 <div className="justify-center mx-5 my-6">
                   <h3 className="font-bold">Education & Skills &rarr;</h3>
-                  <p>University of Michigan College of Engineering 2021 graduate with skills across the technology stack.</p>
+                  <p>University of Michigan College of Engineering 2021 graduate and former instructional aide.</p>
                 </div>
               </Link>
             </div>
