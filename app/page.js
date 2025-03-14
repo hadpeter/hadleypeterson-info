@@ -19,7 +19,7 @@ export default function Home() {
               <img src="/headshot.jpg" className="w-7/8 h-7/8 rounded-full mr-4" alt="profile picture"/>
             </div>
             <div className="mx-4 w-2/3">
-            I am a software engineer passionate about designing robust data systems, communicating complex technical concepts and mentoring fellow engineers.
+            Customer-centric software engineer with expertise in building scalable data pipelines and high performance APIs. Passionate about optimizing systems, creating seamless user experiences, and fostering engineering best practices.
             <Icons></Icons>
             </div>
           </div>

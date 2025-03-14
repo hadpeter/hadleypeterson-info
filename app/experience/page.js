@@ -13,7 +13,7 @@ export default function Experiences() {
             <div className="rounded-md outline outline-offset-6 outline-black hover:shadow-lg transition-shadow duration-200">
               <Link href="/experience/capital_one">
                 <div className="justify-center mx-5 my-6">
-                  <Job company="Capital One" image="../Capital_one.png" title="Senior Associate Software Engineer"></Job>
+                  <Job company="Capital One" image="../Capital_one.png" title="Senior Software Engineer"></Job>
                 </div>
               </Link>
             </div>
