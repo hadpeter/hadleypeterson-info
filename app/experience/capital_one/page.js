@@ -8,22 +8,25 @@ export default function CapitalOne() {
             <section className="mb-16">
                 <JobHighlight title="Principal Associate - Senior Software Engineer" focus="Search Engine Optimization" date="August 2024-Present"></JobHighlight>
                 <ul class="list-disc mx-8">
-                    <li>Developed differentiated search experience to optimize search performance and eliminate irrelevant results; Improved search latency by 5x and reduced results by 100x for 60% of searches</li>
+                    <li>Accelerated search latency by 2x and improved result relevance by 30% across 22% of query volume by architecting a new index and leveraging OpenSearch templates</li>
+                    <li>Rearchitected search process to improve performance and eliminate noise, achieving 5x faster results and reducing result volume by 100x for 60% of searches</li>
+                    <li>Partnered with UI, product, and design teams to redesign the search results page, increasing keyword search click through rate by 10%</li>
+                    <li>Led 20+ technical interviews for early career candidates, shaping hiring outcomes</li>
                 </ul>
             </section>
             <section className="mb-16">
                 <JobHighlight title="Senior Associate Software Engineer" focus="Search Engine Optimization" date="August 2023-Present"></JobHighlight>
                 <ul class="list-disc mx-8">
-                    <li>Piloted search evaluation and AB testing; empowered product partners with tools to quantify search performance; collaborated with data analytics team to create performance dashboards</li>
-                    <li>Discovered and implemented solution to eliminate 500,000 API calls by reusing log data</li>
-                    <li>Recruited 60+ new grads and interns at University of Michigan; onboarded 30+ new hires to Agile methodologies; conducted technical interviews for 20+ new graduate hires</li>
-                    <li>Presented code review process at company-wide presentation to 400+ engineers; authored externally published article on how to produce quality code reviews</li>
+                    <li>Established feature evaluation and A/B testing framework, built custom tools that enabled product teams to quantify the impact of changes on search performance</li>
+                    <li>Eliminated 500,000+ API calls by engineering a log-driven search suggestion system, reducing backend load and cost</li>
+                    <li>Presented effective code review process to 400+ engineers at technical conference; authored article published on Capital One’s Medium on producing high-quality code reviews</li>
+                    <li>Recruited 60+ interns and new grads, and led Agile onboarding for 30+ new hires</li>
                 </ul>
             </section>
             <section className="mb-16">
                 <JobHighlight title="Associate Software Engineer" focus="Machine Learning Opperations" date="August 2022-August 2023"></JobHighlight>
                 <ul class="list-disc mx-8">
-                    <li>Developed ML feature calculator; improved container provisioning time by 1,000x and compute time by 10x; demo’ed to 200+ stakeholders, leading to adoption by 2 teams</li>
+                    <li>Developed ML feature calculator; improved container provisioning time by 1,000x and compute time by 10x; presented to 200+ stakeholders, resulting in adoption across 2+ teams</li>
                 </ul>
             </section>
             <section className="mb-16">
