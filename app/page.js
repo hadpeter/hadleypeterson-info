@@ -20,7 +20,7 @@ export default function Home() {
             </div>
             <div className="mx-4 w-2/3">
             <b>Product-Focused Engineer Driving Search, Data, and UX Innovation</b>
-            Passionate about optimizing systems, creating seamless user experiences, and fostering engineering best practices.
+            <p>Passionate about optimizing systems, creating seamless user experiences, and fostering engineering best practices.</p>
             <Icons></Icons>
             </div>
           </div>
