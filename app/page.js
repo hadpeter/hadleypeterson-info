@@ -19,7 +19,7 @@ export default function Home() {
               <img src="/headshot.jpg" className="w-7/8 h-7/8 rounded-full mr-4" alt="profile picture"/>
             </div>
             <div className="mx-4 w-2/3">
-            Customer-centric software engineer with expertise in building scalable data pipelines and high performance APIs. Passionate about optimizing systems, creating seamless user experiences, and fostering engineering best practices.
+            Product-Focused Engineer Driving Search, Data, and UX Innovation
             <Icons></Icons>
             </div>
           </div>
@@ -36,7 +36,7 @@ export default function Home() {
               <Link href="/education">
                 <div className="justify-center mx-5 my-6">
                   <h3 className="font-bold">Education & Skills &rarr;</h3>
-                  <p>University of Michigan College of Engineering 2021 graduate and former instructional aide.</p>
+                  <p>University of Michigan College of Engineering 2021 Graduate and Former Instructional Aide.</p>
                 </div>
               </Link>
             </div>
@@ -52,7 +52,7 @@ export default function Home() {
               <Link href="/interests">
                 <div className="justify-center mx-5 my-6">
                   <h3 className="font-bold">Interests &rarr;</h3>
-                  <p>Curious engineer, reader, & yogi.</p>
+                  <p>Curious builder, reader, & yogi.</p>
                 </div>
               </Link>
             </div>

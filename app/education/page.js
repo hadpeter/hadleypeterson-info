@@ -4,6 +4,16 @@ import DoubleListComponent from "../components/doubleList.js"
 import JobHighlight from "../components/JobHighlight.js"
 
 export default function EducationAndSkills() {
+    var product_management = [
+        {name: "Product Strategy"},
+        {name: "Roadmap Prioritization"},
+        {name: "Market Analysis"},
+        {name: "Stakeholder Management"},
+        {name: "Data-Driven Decision Making"},
+        {name: "Agile"},
+        {name: "A/B Testing"},
+        {name: "Tableau"}
+    ]
     var languages = [
         {name: "C++", image: "/skills/c++.png"}, 
         {name: "Python", "image": "/skills/python.png"},
@@ -49,12 +59,21 @@ export default function EducationAndSkills() {
                         <b>Instructional Aide:</b> EECS 376: Foundations of Computer Science
                     </li>
                     <li>
-                        <b>Relevant Courses:</b> EECS 482: Operating Systems, EECS 485: Web Systems, EECS 388: Computer Security & EECS 498: Applied Machine Learning 
+                        <b>Relevant Courses:</b> 
+                        <ul>
+                            <li>EECS 485: Web Systems</li>
+                            <li>EECS 498: Applied Machine Learning</li>
+                            <li>EECS 388: Computer Security</li>
+                            <li>EECS 482: Operating Systems</li>
+                            <li>ENTR 409: Introduction to Venture Capital</li>
+                        </ul>
                     </li>
                 </ul>
             </section>
             <section className="mb-16">
                 <PageSubTitleComponet title="Skills"></PageSubTitleComponet>
+                <h4 className="text-xl font-bold">Product Management</h4>
+                <DoubleListComponent items={product_management}></DoubleListComponent>
                 <h4 className="text-xl font-bold">Languages and Frameworks</h4>
                 <DoubleListComponent items={languages}></DoubleListComponent>
                 <h4 className="text-xl font-bold">Technologies</h4>

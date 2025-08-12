@@ -8,25 +8,25 @@ export default function CapitalOne() {
             <section className="mb-16">
                 <JobHighlight title="Principal Associate - Senior Software Engineer" focus="Search Engine Optimization" date="August 2024-Present"></JobHighlight>
                 <ul class="list-disc mx-8">
-                    <li>Accelerated search latency by 2x and improved result relevance by 30% across 22% of query volume by architecting a new index and leveraging OpenSearch templates</li>
-                    <li>Rearchitected search process to improve performance and eliminate noise, achieving 5x faster results and reducing result volume by 100x for 60% of searches</li>
-                    <li>Partnered with UI, product, and design teams to redesign the search results page, increasing keyword search click through rate by 10%</li>
-                    <li>Led 20+ technical interviews for early career candidates, shaping hiring outcomes</li>
+                    <li>Increased search CTR by 10%, sped searches 5×, and reduced irrelevant results 100× by analyzing query patterns and leading cross-functional launch of “exact search” experience.</li>
+                    <li>Improved search explainability for 60%+ of queries by collaborating with product, design and UI to surface views as top-level results and reduce confusion.</li>
+                    <li>Raised offline recall by 12.5% on suggested results by identifying drop-off and delivering LLM-powered personalization with data science, analytics and product partners</li>
+                    <li>Accelerated confidence and validation of 20+ features by building an online experimentation framework; defined success metrics with product and analytics partners</li>
                 </ul>
             </section>
             <section className="mb-16">
                 <JobHighlight title="Senior Associate Software Engineer" focus="Search Engine Optimization" date="August 2023-Present"></JobHighlight>
                 <ul class="list-disc mx-8">
-                    <li>Established feature evaluation and A/B testing framework, built custom tools that enabled product teams to quantify the impact of changes on search performance</li>
-                    <li>Eliminated 500,000+ API calls by engineering a log-driven search suggestion system, reducing backend load and cost</li>
-                    <li>Presented effective code review process to 400+ engineers at technical conference; authored article published on Capital One’s Medium on producing high-quality code reviews</li>
-                    <li>Recruited 60+ interns and new grads, and led Agile onboarding for 30+ new hires</li>
+                    <li>Secured leadership buy-in for hybrid search upgrade after researching AWS OpenSearch trends and pitching to product and technology leaders.</li>
+                    <li>Enabled rapid, risk-free testing with offline evaluation tool adopted by 20+ engineers.</li>
+                    <li>Reduced backend costs and improved efficiency by eliminating 500K+ weekly API calls through log-driven data pipeline optimization.</li>
+                    <li>Presented code review best practices to 400+ engineers at conference</li>
                 </ul>
             </section>
             <section className="mb-16">
                 <JobHighlight title="Associate Software Engineer" focus="Machine Learning Opperations" date="August 2022-August 2023"></JobHighlight>
                 <ul class="list-disc mx-8">
-                    <li>Developed ML feature calculator; improved container provisioning time by 1,000x and compute time by 10x; presented to 200+ stakeholders, resulting in adoption across 2+ teams</li>
+                    <li>Boosted provisioning speed 1,000× and efficiency 10× by leading development of optimized ML compute solution presented to 200+ engineers and adopted across teams.</li>
                 </ul>
             </section>
             <section className="mb-16">
