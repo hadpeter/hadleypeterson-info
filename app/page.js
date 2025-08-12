@@ -19,7 +19,8 @@ export default function Home() {
               <img src="/headshot.jpg" className="w-7/8 h-7/8 rounded-full mr-4" alt="profile picture"/>
             </div>
             <div className="mx-4 w-2/3">
-            Product-Focused Engineer Driving Search, Data, and UX Innovation
+            <b>Product-Focused Engineer Driving Search, Data, and UX Innovation</b>
+            Passionate about optimizing systems, creating seamless user experiences, and fostering engineering best practices.
             <Icons></Icons>
             </div>
           </div>

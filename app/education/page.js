@@ -60,7 +60,7 @@ export default function EducationAndSkills() {
                     </li>
                     <li>
                         <b>Relevant Courses:</b> 
-                        <ul>
+                        <ul class="visible_list">
                             <li>EECS 485: Web Systems</li>
                             <li>EECS 498: Applied Machine Learning</li>
                             <li>EECS 388: Computer Security</li>
