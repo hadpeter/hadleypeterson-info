@@ -216,7 +216,7 @@ export default function Interests() {
 
       {/* Tabs */}
       <div role="tablist" aria-label="Interests sections" className="flex flex-wrap gap-2">
-        <Tab id="reading" label="What I'm reading" />
+        <Tab id="reading" label="Readings" />
         <Tab id="hobbies" label="Hobbies" />
         {/* <Tab id="reflections" label="Reflections / Thoughts" /> */}
         <Tab id="professional" label="Professional Curiosities" />
@@ -225,7 +225,7 @@ export default function Interests() {
       {/* Panels */}
       {tab === "reading" && (
         <Section id="reading">
-          <PageSubTitleComponet title="What I'm reading" />
+          <PageSubTitleComponet title="Readings" />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
             {readings.map((b) => (
               <ReadingCard key={b.title} item={b} />
