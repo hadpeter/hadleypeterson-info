@@ -16,6 +16,7 @@ export default function Interests() {
         {"name": "Venture Capital", "image": "/interests/venture_capital.webp"}
     ]
     
+    
     var lifestyle_intersts = [
         {"name": "Yoga", "image": "/interests/yoga.webp"},
         {"name": "Meditation", "image": "/interests/meditation.webp"},
