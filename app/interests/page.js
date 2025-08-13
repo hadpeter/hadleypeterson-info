@@ -219,7 +219,7 @@ export default function Interests() {
         <Tab id="reading" label="What I'm reading" />
         <Tab id="hobbies" label="Hobbies" />
         {/* <Tab id="reflections" label="Reflections / Thoughts" /> */}
-        <Tab id="professional" label="Professional" />
+        <Tab id="professional" label="Professional Curiosities" />
       </div>
 
       {/* Panels */}
