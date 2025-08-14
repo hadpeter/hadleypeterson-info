@@ -60,7 +60,7 @@ export default function Interests() {
     {
       title: "Man's Search for Meaning",
       by: "Viktor Frankl"
-    }
+    },
     {
       title: "Becoming Supernatural",
       by: "Joe Dispenza"
