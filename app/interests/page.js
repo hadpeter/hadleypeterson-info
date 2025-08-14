@@ -56,6 +56,14 @@ export default function Interests() {
     {
       title: "The Changing World Order",
       by: "Ray Dalio"
+    },
+    {
+      title: "Man's Search for Meaning",
+      by: "Viktor Frankl"
+    }
+    {
+      title: "Becoming Supernatural",
+      by: "Joe Dispenza"
     }
   ];
 
