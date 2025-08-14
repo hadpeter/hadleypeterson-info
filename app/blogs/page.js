@@ -10,7 +10,7 @@ export default function Blogs() {
     var posts = [
         {
             "title": "From Listening to Leading: Building Real Influence",
-            "coverImage": "/influence.png",
+            "coverImage": "/influence.jpeg",
             "date": "August 2025",
             "author": author,
             "link": "https://hadleypeterson.substack.com/p/from-listening-to-leading-building",
