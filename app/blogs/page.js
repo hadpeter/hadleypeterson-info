@@ -9,6 +9,14 @@ export default function Blogs() {
     }
     var posts = [
         {
+            "title": "From Listening to Leading: Building Real Influence",
+            "coverImage": "/influence.png",
+            "date": "August 2025",
+            "author": author,
+            "link": "https://hadleypeterson.substack.com/p/from-listening-to-leading-building",
+            "excerpt": "In today’s world of constant noise and infinite options, influence is one of the most valuable currencies you can possess"
+        },
+        {
             "title": "The Evolution of Search: How the search space has transformed and what the use cases are for each innovation",
             "coverImage": "/search.jpg",
             "date": "May 2024",
