@@ -1,64 +1,56 @@
-import Link from "next/link";
 import PageTitleComponet from "../components/pageTitle.js";
 
 // Update this list to add/remove roles (ordered most-recent → oldest)
 const EXPERIENCES = [
   {
     company: "Capital One",
-    role: "Principal Associate – Senior Software Engineer",
+    role: "Principal Associate Senior Software Engineer",
     logo: "/Capital_one.png",
-    href: "/experience/capital_one",
     date: "Aug 2024 – Present",
-    blurb: "Leading search engine optimization and platform improvements across teams.",
+    blurb: "Leading cross-functional differentiated search experiences and LLM powered suggestions",
   },
   {
     company: "Capital One",
     role: "Senior Associate Software Engineer",
     logo: "/Capital_one.png",
-    href: "/experience/capital_one",
     date: "Aug 2023 – Aug 2024",
-    blurb: "Delivered hybrid search upgrades and data pipeline optimizations.",
+    blurb: "Designed search experimentation framework and pitched hybrid search solution",
   },
   {
     company: "Capital One",
     role: "Associate Software Engineer",
     logo: "/Capital_one.png",
-    href: "/experience/capital_one",
     date: "Aug 2022 – Aug 2023",
-    blurb: "Worked on ML infrastructure and compute optimization for model deployment.",
+    blurb: "Pitched and piloted optimized machine learning orchestrator solution",
   },
   {
-    company: "Clocktower Tech Ventures",
+    company: "Clocktower Technology Ventures",
     role: "Technology Consultant",
     logo: "/clocktower.jpeg",
-    href: "/experience/clocktower",
     date: "May 2021 - Jul 2021",
-    blurb: "Advised portfolio companies on technical strategy and architecture.",
+    blurb: "Built Tableau dashboards to track portfolio company metrics",
     scale: "small",
   },
   {
     company: "Capital One",
     role: "Software Engineer Intern",
     logo: "/Capital_one.png",
-    href: "/experience/capital_one",
     date: "Jun 2020 - Aug 2020",
-    blurb: "Designed and built APIs with low latency and high reliability.",
+    blurb: "Designed product to support fraud agents in converting virtual credit cards",
   },
   {
     company: "Quicken Loans",
     role: "Software Engineer Intern",
     logo: "/Quicken_loans.png",
-    href: "/experience/quicken_loans",
     date: "Jun 2019 - Aug 2019",
-    blurb: "Built scalable backend systems and APIs as part of engineering internship.",
+    blurb: "Led agile delivery team to create unified UI experience with data analytics",
   },
   {
     company: "Tappan Hill Ventures",
     role: "Investment Intern",
     logo: "/Tappan_hill.png",
-    href: "/experience/tappan_hill",
     date: "Feb 2019 - Feb 2020",
-    blurb: "Supported investment diligence and startup portfolio analysis.",
+    blurb: "Supported investment diligence and startup portfolio analysis",
     scale: "small",
   },
 ];
@@ -66,52 +58,71 @@ const EXPERIENCES = [
 function Timeline() {
   return (
     <div className="relative w-full">
-      {/* Scroll container for small screens */}
-      <div className="overflow-x-auto">
-        {/* Inner track */}
+      {/* Horizontal timeline for medium+ screens */}
+      <div className="hidden md:block overflow-x-auto">
         <div className="relative min-w-[1000px] md:min-w-0 md:w-full h-96 px-8">
-          {/* Horizontal line */}
-          <div className="absolute left-8 right-8 top-1/2 h-1 bg-neutral-300" aria-hidden="true" />
+          {/* Horizontal line moved to center of circles */}
+          <div className="absolute left-8 right-8 top-[calc(50%-4.5rem)] h-1 bg-neutral-300 z-0" aria-hidden="true" />
 
-          {/* Items laid out evenly */}
-          <div className="relative h-full w-full flex items-center justify-between">
+          <div className="relative h-full w-full flex items-start justify-between">
             {EXPERIENCES.map((item, idx) => {
               const circleSize = "w-36 h-36";
               const imgSize = item.scale === "small" ? "w-20 h-20" : "w-24 h-24";
+              const isOlder = idx >= 3;
 
               return (
-                <Link key={`${item.company}-${idx}`} href={item.href} className="group">
-                  <div className="relative flex flex-col items-center text-center justify-between h-full">
-                    {/* Date above the circle */}
-                    <div className="mb-3 text-xs text-neutral-600 whitespace-nowrap">{item.date}</div>
-
-                    {/* Node with logo */}
-                    <div className={`z-10 ${circleSize} rounded-full bg-white ring-2 ring-neutral-300 flex items-center justify-center shadow-sm group-hover:shadow-md transition-transform`}>
-                      {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img
-                        src={item.logo}
-                        alt={`${item.company} logo`}
-                        className={`${imgSize} object-contain`}
-                      />
-                    </div>
-
-                    {/* Caption below the circle (add flex padding to keep alignment consistent) */}
-                    <div className="mt-4 max-w-[14rem] flex flex-col justify-start">
-                      <div className="text-sm font-semibold leading-snug">
-                        {item.role}
-                      </div>
-                      <div className="text-xs text-neutral-500">{item.company}</div>
-                      {item.blurb && (
-                        <div className="mt-2 text-xs text-neutral-600 leading-snug min-h-[3rem]">
-                          {item.blurb}
-                        </div>
-                      )}
-                    </div>
+                <div key={`${item.company}-${idx}`} className="relative flex flex-col items-center text-center h-full z-10">
+                  <div className="mb-2 text-xs text-neutral-600 whitespace-nowrap">{item.date}</div>
+                  <div className={`z-10 ${circleSize} rounded-full bg-white ring-2 ring-neutral-300 flex items-center justify-center shadow-sm`}> 
+                    <img
+                      src={item.logo}
+                      alt={`${item.company} logo`}
+                      className={`${imgSize} object-contain`}
+                    />
                   </div>
-                </Link>
+                  <div className="mt-4 max-w-[14rem] flex flex-col justify-start px-4 text-left">
+                    <div className="text-sm font-semibold leading-snug">{item.role}</div>
+                    <div className="text-xs text-neutral-500">{item.company}</div>
+                    {item.blurb && (
+                      <div className={`text-xs text-neutral-600 leading-snug ${isOlder ? "mt-4" : "mt-2"}`}>{item.blurb}</div>
+                    )}
+                  </div>
+                </div>
               );
             })}
           </div>
+        </div>
+      </div>
+
+      {/* Vertical timeline for small screens */}
+      <div className="block md:hidden px-6">
+        <div className="relative border-l-2 border-neutral-300 ml-6">
+          {EXPERIENCES.map((item, idx) => {
+            const imgSize = item.scale === "small" ? "w-16 h-16" : "w-20 h-20";
+            const isOlder = idx >= 3;
+
+            return (
+              <div key={`${item.company}-${idx}`} className="mb-10 ml-4 flex flex-col">
+                <div className="text-xs text-neutral-600 mb-2">{item.date}</div>
+                <div className="flex items-start">
+                  <div className="w-28 h-28 rounded-full bg-white ring-2 ring-neutral-300 flex items-center justify-center shadow-sm">
+                    <img
+                      src={item.logo}
+                      alt={`${item.company} logo`}
+                      className={`${imgSize} object-contain`}
+                    />
+                  </div>
+                  <div className="ml-4 text-left">
+                    <div className="text-sm font-semibold">{item.role}</div>
+                    <div className="text-xs text-neutral-500">{item.company}</div>
+                    {item.blurb && (
+                      <div className={`text-xs text-neutral-600 leading-snug ${isOlder ? "mt-4" : "mt-2"}`}>{item.blurb}</div>
+                    )}
+                  </div>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>
@@ -129,7 +140,6 @@ export default function Experiences() {
         <Timeline />
       </div>
 
-      {/* Optional: a compact legend for accessibility */}
       <div className="sr-only" aria-hidden="false">
         {EXPERIENCES.map((e, i) => (
           <div key={i}>{`${i + 1}. ${e.role} at ${e.company} (${e.date}) – ${e.blurb}`}</div>
