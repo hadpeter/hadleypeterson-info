@@ -26,22 +26,6 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center mt-8 mx-4 grid">
             <div className="rounded-md outline outline-offset-6 outline-black hover:shadow-xl transition-shadow duration-200">
-              <Link href="/experience">
-                <div className="justify-center mx-5 my-6">
-                  <h3 className="font-bold">Experience  &rarr;</h3>
-                  <p>Senior software engineer at Capital One with expertise in search systems, ML Ops and API development.</p>
-                </div>
-              </Link>
-            </div>
-            <div className="rounded-md outline outline-offset-6 outline-black hover:shadow-xl transition-shadow duration-200">
-              <Link href="/education">
-                <div className="justify-center mx-5 my-6">
-                  <h3 className="font-bold">Education & Skills &rarr;</h3>
-                  <p>University of Michigan College of Engineering 2021 Graduate and Former Instructional Aide.</p>
-                </div>
-              </Link>
-            </div>
-            <div className="rounded-md outline outline-offset-6 outline-black hover:shadow-xl transition-shadow duration-200">
             <Link href="/blogs">
               <div className="justify-center mx-5 my-6">
                 <h3 className="font-bold">Blogs &rarr;</h3>
@@ -54,6 +38,22 @@ export default function Home() {
                 <div className="justify-center mx-5 my-6">
                   <h3 className="font-bold">Interests &rarr;</h3>
                   <p>Curious builder, reader, & yogi.</p>
+                </div>
+              </Link>
+            </div>
+            <div className="rounded-md outline outline-offset-6 outline-black hover:shadow-xl transition-shadow duration-200">
+              <Link href="/experience">
+                <div className="justify-center mx-5 my-6">
+                  <h3 className="font-bold">Experience  &rarr;</h3>
+                  <p>Senior software engineer at Capital One with expertise in search systems, ML Ops and API development.</p>
+                </div>
+              </Link>
+            </div>
+            <div className="rounded-md outline outline-offset-6 outline-black hover:shadow-xl transition-shadow duration-200">
+              <Link href="/education">
+                <div className="justify-center mx-5 my-6">
+                  <h3 className="font-bold">Education & Skills &rarr;</h3>
+                  <p>University of Michigan College of Engineering 2021 Graduate and Former Instructional Aide.</p>
                 </div>
               </Link>
             </div>
